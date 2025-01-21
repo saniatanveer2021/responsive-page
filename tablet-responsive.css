@@ -1,0 +1,79 @@
+@media only screen and (min-width: 767px) and (max-width: 1110px){
+    .WrapperContainer {
+        min-height: 100vh;
+        width: 100vw;
+        margin-top: 2vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 5vw;
+    }
+    .WrapperContainer .leftContainer {
+        height: 100vh;
+        width: 100vw;
+        padding: 11vw 10vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 0.8vw;
+    }
+    .leftContainer h1 {
+        font-size: 7vw;
+        font-weight: 500;
+    }
+    .WrapperContainer .rightContainer {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .rightContainer .details {
+        margin-bottom: 20vw;
+        gap: 12.5vw;
+    }
+    .details .topHeading {
+        width: 100%;
+        padding: 3.7vw 10.2vw;
+        background-color: greenyellow;
+    }
+    .topHeading h2 {
+        font-size: 3.5vw;
+    }
+    .details .centerHeading {
+        position: relative;
+        padding-left: 10vw;
+        gap: 8vw;
+    }
+    .centerHeading p {
+        width: 84%;
+        line-height: 4vw;
+        font-size: 3.3vw;
+    }
+    .centerHeading .upperSection {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 8vw;
+    }
+    .upperSection .leftSide {
+        gap: 2vw;
+    }
+    .leftSide h1 {
+        font-size: 10vw;
+    }
+    .leftSide p{
+        width: 100%;
+    }
+    .details button {
+        font-size: 3vw;
+        margin-left: 9.5vw;
+        padding: 3vw 4vw;
+    }
+}

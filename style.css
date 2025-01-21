@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.WrapperContainer{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.WrapperContainer .leftContainer{
+    height: 100vh;
+    width: 30vw;
+    padding: 8.5vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.5vw;
+}
+.leftContainer h1{
+    font-size: 2.2vw;
+    font-weight: 500;
+}
+.WrapperContainer .rightContainer{
+    height: 100vh;
+    width: 70vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rightContainer .details{
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2.5vw;
+}
+.details .topHeading{
+    width: 100%;
+    padding: 1.5vw 2vw;
+    background-color: greenyellow;
+}
+.topHeading h2{
+    font-size: 1vw;
+}
+.details .centerHeading{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1vw;
+}
+.centerHeading .upperSection{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8vw;
+}
+.upperSection .leftSide{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5vw;
+}
+.leftSide h1{
+    font-size: 4vw;
+}
+.centerHeading p{
+    font-size: 1.3vw;
+}
+.details button{
+    font-size: 1vw;
+    padding: 1.1vw 1.7vw;
+    border-radius: 50vw;
+    border: 1px solid black;
+}
